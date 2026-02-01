@@ -14,6 +14,7 @@ const SEED_TASKS: Task[] = [
     description: 'Morning digest of unread emails with AI-powered priority classification (URGENT/HIGH/MEDIUM/LOW) and action suggestions. Location: /Users/robbmacmini/clawd/tools/email-triage.js',
     status: 'done',
     priority: 'high',
+    dueDate: null,
     createdAt: '2026-02-01T12:00:00.000Z',
   },
   {
@@ -22,6 +23,7 @@ const SEED_TASKS: Task[] = [
     description: 'Auto-filters and cleanup rules for newsletters, promotions, social notifications. Dry-run by default. Location: /Users/robbmacmini/clawd/tools/inbox-zero.js',
     status: 'done',
     priority: 'high',
+    dueDate: null,
     createdAt: '2026-02-01T12:00:00.000Z',
   },
   {
@@ -30,6 +32,7 @@ const SEED_TASKS: Task[] = [
     description: 'Morning briefing combining overnight email summary, calendar events, priorities from memory, and decisions needed. Location: /Users/robbmacmini/clawd/tools/daily-briefing.js',
     status: 'done',
     priority: 'high',
+    dueDate: null,
     createdAt: '2026-02-01T12:00:00.000Z',
   },
   {
@@ -38,6 +41,7 @@ const SEED_TASKS: Task[] = [
     description: 'Built and deployed Kanban board for Jarvis task management. GitHub: regreenjr/jarvis-kanban, Live: jarvis-kanban-orpin.vercel.app',
     status: 'done',
     priority: 'medium',
+    dueDate: null,
     createdAt: '2026-02-01T15:30:00.000Z',
   },
   {
@@ -46,6 +50,7 @@ const SEED_TASKS: Task[] = [
     description: 'Received and committed Project Enigma context from Lucas (content creation workflow, tools, bottlenecks). Saved to memory/project-enigma-context.md',
     status: 'done',
     priority: 'high',
+    dueDate: null,
     createdAt: '2026-02-01T14:44:00.000Z',
   },
   {
@@ -54,6 +59,7 @@ const SEED_TASKS: Task[] = [
     description: 'Upgraded primary model from Sonnet 4.5 to Opus 4.5. Updated both agents.defaults and flash agent config.',
     status: 'done',
     priority: 'medium',
+    dueDate: null,
     createdAt: '2026-02-01T11:40:00.000Z',
   },
   // BACKLOG
@@ -63,6 +69,7 @@ const SEED_TASKS: Task[] = [
     description: 'Track team productivity and output metrics. Needs Lucas context on team structure and current tracking methods.',
     status: 'backlog',
     priority: 'medium',
+    dueDate: null,
     createdAt: '2026-01-31T18:24:00.000Z',
   },
   {
@@ -71,6 +78,7 @@ const SEED_TASKS: Task[] = [
     description: 'Searchable collection of prompts used across the business. Organize, tag, and retrieve prompts easily.',
     status: 'backlog',
     priority: 'medium',
+    dueDate: null,
     createdAt: '2026-01-31T18:24:00.000Z',
   },
   {
@@ -79,6 +87,7 @@ const SEED_TASKS: Task[] = [
     description: 'Document current processes and identify automation opportunities. Find inefficiencies and suggest improvements.',
     status: 'backlog',
     priority: 'medium',
+    dueDate: null,
     createdAt: '2026-01-31T18:24:00.000Z',
   },
   {
@@ -87,6 +96,7 @@ const SEED_TASKS: Task[] = [
     description: 'Waiting for context from Lucas about TikTok posting, analyzing, and software used for distribution.',
     status: 'backlog',
     priority: 'high',
+    dueDate: null,
     createdAt: '2026-02-01T15:18:00.000Z',
   },
   {
@@ -95,6 +105,7 @@ const SEED_TASKS: Task[] = [
     description: 'The auto-unsubscribe feature in gmail-automation has a bug (cheerio.load expects string). Currently using auto-archive as workaround.',
     status: 'backlog',
     priority: 'low',
+    dueDate: null,
     createdAt: '2026-02-01T14:41:00.000Z',
   },
   {
@@ -103,6 +114,7 @@ const SEED_TASKS: Task[] = [
     description: 'Deep research into breaking out of TikTok sandbox. Current: ~200 views, Goal: 1000 avg views. Investigate SMS providers, warmup patterns, posting behavior.',
     status: 'backlog',
     priority: 'high',
+    dueDate: null,
     createdAt: '2026-02-01T14:46:00.000Z',
   },
 ];
