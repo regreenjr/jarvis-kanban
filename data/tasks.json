@@ -93,7 +93,7 @@
     "id": "task-011",
     "title": "Kanban API Routes",
     "description": "Add API routes so Jarvis can read/write tasks programmatically",
-    "status": "in-progress",
+    "status": "done",
     "priority": "high",
     "dueDate": null,
     "createdAt": "2026-02-02T16:58:00.000Z"
